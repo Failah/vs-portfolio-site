@@ -26,6 +26,10 @@ body {
     color: var(--text-color);
 }
 
+.main-colored {
+    color: var(--main-color);
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -55,6 +59,32 @@ body {
     color: var(--text-color);
     margin-left: 4rem;
     position: relative;
+}
+
+.language-selector {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    right: 170px;
+    top: 70px;
+}
+
+.language-selector .fi {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+
+.language-selector .language {
+    filter: opacity(0.4);
+}
+
+.language-selector .language.active-language {
+    filter: opacity(1);
 }
 
 .navbar a::after {
@@ -118,7 +148,7 @@ section {
     margin-bottom: 2rem;
 }
 
-.home-content h3:nth-of-type(2) span {
+.home-content h3:nth-of-type(2) .multiple-text {
     color: var(--main-color);
 }
 
@@ -187,10 +217,6 @@ section {
     line-height: 1.2;
 }
 
-.about-content h2 span {
-    color: var(--main-color);
-}
-
 .about-content h3 {
     font-size: 3.2rem;
 }
@@ -205,7 +231,7 @@ section {
     font-size: 5.2rem;
 }
 
-.heading span {
+.heading span:last-child {
     color: var(--main-color);
 }
 
@@ -455,16 +481,43 @@ section {
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES ************************************************* */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+    }
+
+    .language-selector {
+        right: 105px;
+    }
+
+    .portfolio-box .portfolio-layer {
+        transform: translateY(150%);
+    }
+
+    .portfolio-box .portfolio-layer h4 {
+        font-size: 2rem;
+    }
+
+    .portfolio-box .portfolio-layer p {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-box .portfolio-layer a {
+        font-size: 1.2rem;
+        width: 10rem;
+        height: 2.5rem;
+        font-weight: 600;
     }
 }
 
 @media (max-width: 991px) {
     .header {
         padding: 2rem 3%;
+    }
+
+    .language-selector {
+        right: 30px;
     }
 
     section {
@@ -515,8 +568,17 @@ section {
         margin: 3rem 0;
     }
 
+    .language-selector {
+        right: auto;
+        left: 25px;
+    }
+
     .home {
         flex-direction: column;
+    }
+
+    .home-content {
+        margin-top: 5rem;
     }
 
     .home-content h3 {
@@ -552,11 +614,43 @@ section {
     .portfolio-box .portfolio-layer {
         transform: translateY(125%);
     }
+
+    .portfolio-box .portfolio-layer h4 {
+        font-size: 3rem;
+    }
+
+    .portfolio-box .portfolio-layer p {
+        font-size: 1.3rem;
+    }
+
+    .portfolio-box .portfolio-layer a {
+        width: 15rem;
+        height: 5rem;
+        font-size: 2.2rem;
+    }
 }
 
 @media (max-width: 617px) {
     .portfolio-container {
         grid-template-columns: 1fr;
+    }
+
+    .portfolio-box .portfolio-layer h4 {
+        font-size: 4rem;
+    }
+
+    .portfolio-box .portfolio-layer p {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-box .portfolio-layer a {
+        width: 15rem;
+        height: 5rem;
+        font-size: 2.2rem;
+    }
+
+    .language-selector {
+        left: 18px;
     }
 }
 
@@ -565,12 +659,27 @@ section {
         font-size: 50%;
     }
 
+    .language-selector {
+        left: 15px;
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
-}
 
-@media (max-width: 365px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .footer-iconTop {
+        margin-top: 2.3rem;
+    }
+
     .home-img img {
         width: 70vw;
     }
@@ -578,13 +687,24 @@ section {
     .about-img img {
         width: 70vw;
     }
+}
 
-    .footer {
-        flex-direction: column-reverse;
+@media (max-width: 365px) {
+    .language-selector {
+        left: 10px;
     }
 
-    .footer p {
-        text-align: center;
-        margin-top: 2rem;
+    .portfolio-box .portfolio-layer h4 {
+        font-size: 2.7rem;
+    }
+
+    .portfolio-box .portfolio-layer p {
+        font-size: 1.45rem;
+    }
+
+    .portfolio-box .portfolio-layer a {
+        width: 15rem;
+        height: 5rem;
+        font-size: 2.2rem;
     }
 }

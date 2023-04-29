@@ -1,3 +1,5 @@
+console.log('Script.js Loaded!')
+
 // TOGGLE NAVBAR ICON
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -84,3 +86,4 @@ function copyToClipboard(text) {
         confirmation.style.display = "none";
     }, 1500);
 }
+

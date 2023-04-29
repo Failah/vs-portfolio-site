@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
+    <script src="js/language.js" defer></script>
 </head>
 
 <body>
@@ -30,12 +32,24 @@
         </nav>
     </header>
 
+    <div class="language-selector">
+        <div class="language english active-language">
+            <span class="fi fi-gb"></span>
+        </div>
+        <div class="language italian">
+            <span class="fi fi-it"></span>
+        </div>
+        <div class="language spanish">
+            <span class="fi fi-es"></span>
+        </div>
+    </div>
+
     <!-- MAIN SECTION -->
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello! My Name is</h3>
             <h1>Valerio Schiarizza</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <h3><span>And I'm a </span><span class="multiple-text"></span></h3>
             <p>Informatics, computers and technology enthusiast!
                 Very curious, I never stop studying and learning new things! Passion and dedication are what count the
                 most!</p>
@@ -62,14 +76,14 @@
         </div>
 
         <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
+            <h2 class="heading"><span>About </span><span class="main-colored">Me</span></h2>
             <h3>Fullstack Web Developer / Game Programmer</h3>
             <p>Hello there! I'm a motivated and passionate Full Stack Web Developer, having completed my master's at
                 Boolean in 2022 and further advanced my skills with a master's in Java at Experis in 2023. My
                 self-driven nature led me to expand my knowledge independently, gaining proficiency in Python, C#, and
                 Unity. I bring sunshine to my work, exuding a positive, sociable attitude that thrives both in
                 individual projects and within team environments. An insatiable curiosity fuels my continual pursuit of
-                learning and mastering new technologies, ensuring I am always at the cutting edge of the digital world!
+                learning and mastering new technologies!
             </p>
             <a href="https://www.linkedin.com/in/valerio-schiarizza-2aa10a259/" target="_blank" class="btn">Read
                 More</a>
@@ -78,7 +92,7 @@
 
     <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
+        <h2 class="heading"><span>My </span><span>Skills</span></h2>
 
         <div class="skills-container">
             <div class="skills-box">
@@ -169,12 +183,12 @@
 
     <!-- PORTFOLIO SECTION -->
     <section class="portfolio" id="projects">
-        <h2 class="heading">Latest <span>Projects</span></h2>
+        <h2 class="heading"><span>Latest </span><span>Projects</span></h2>
 
         <div class="portfolio-container">
             <div class="portfolio-box">
                 <img src="img/boover.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="boover" class="portfolio-layer">
                     <h4>Boover!</h4>
                     <p>
                         Boover is a website similar to Fiverr that provides a platform for finding freelancers. It has
@@ -187,7 +201,7 @@
 
             <div class="portfolio-box">
                 <img src="img/photo_gallery_java.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="photo-gallery" class="portfolio-layer">
                     <h4>Photo Gallery</h4>
                     <p>
                         Complete photographic portal with Backoffice and Frontoffice. It has been developed using Java
@@ -200,7 +214,7 @@
 
             <div class="portfolio-box">
                 <img src="img/neon_snake.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="neon-snake" class="portfolio-layer">
                     <h4>Neon Snake</h4>
                     <p>
                         Modern version of the classic game Snake, developed using HTML, CSS, and JS. Modern design and
@@ -214,7 +228,7 @@
 
             <div class="portfolio-box">
                 <img src="img/boolflix.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="boolflix" class="portfolio-layer">
                     <h4>Boolflix</h4>
                     <p>A simple clone of the Netflix streaming portal, leveraging theMovieDB API.
                         The site includes working search filters and a mock initial logo along with a simulated login
@@ -227,7 +241,7 @@
 
             <div class="portfolio-box">
                 <img src="img/boolzap.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="boolzap" class="portfolio-layer">
                     <h4>Boolzap</h4>
                     <p>I have recreated the functionality of the WhatsApp Web App, featuring message sending and
                         automated randomized replies to simulate bot conversations. This project was developed using
@@ -240,7 +254,7 @@
 
             <div class="portfolio-box">
                 <img src="img/sony_playstation.jpg" alt="">
-                <div class="portfolio-layer">
+                <div id="playstation" class="portfolio-layer">
                     <h4>Play Station</h4>
                     <p>I have meticulously reproduced the landing page of the Sony PlayStation website as a layout,
                         utilizing only HTML and CSS, so without any JavaScript functionality.
@@ -251,14 +265,14 @@
             </div>
         </div>
 
-        <h3 class="heading heading-bottom-showed">You can find some other projects on my <a
+        <h3 class="heading heading-bottom-showed"><span>You can find some other projects on my </span><a
                 href="https://www.linkedin.com/in/valerio-schiarizza-2aa10a259/?profileId=ACoAAD-N4SIBQkwQBBhX8zTxME-uWR6mP-R_AMk"
                 target="_blank">LinkedIn</a>!</h3>
     </section>
 
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+        <h2 class="heading"><span>Contact </span><span>Me!</span></h2>
 
         <form method="post" name="email-form" action="https://formspree.io/f/xayzarle">
             <div class="input-box">
