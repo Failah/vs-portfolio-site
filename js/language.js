@@ -15,7 +15,7 @@ const translations = {
 
         // ABOUT SECTION
         about: "About ",
-        description: "Hello there! I'm a motivated and passionate Full Stack Web Developer, having completed my master's at Boolean in 2022 and further advanced my skills with a master's in Java at Experis in 2023. My self-driven nature led me to expand my knowledge independently, gaining proficiency in Python, C#, and Unity. I bring sunshine to my work, exuding a positive, sociable attitude that thrives both in individual projects and within team environments. An insatiable curiosity fuels my continual pursuit of learning and mastering new technologies!",
+        description: "Hello there! I'm a motivated and passionate Full Stack Web Developer, having completed my master's at Boolean in 2022 and further advanced my skills with a master's in Java at Experis in March 2023. My self-driven nature led me to expand my knowledge independently, gaining proficiency in Python, C#, and Unity. I bring sunshine to my work, exuding a positive, sociable attitude that thrives both in individual projects and within team environments. An insatiable curiosity fuels my continual pursuit of learning and mastering new technologies!",
         readMore: "Read More",
 
         // SKILLS SECTION
@@ -60,7 +60,7 @@ const translations = {
 
         // ABOUT SECTION
         about: "Su di ",
-        description: "Ciao! Sono un Full Stack Web Developer motivato e appassionato, ho completato il mio master presso Boolean nel 2022 e ho ulteriormente migliorato le mie competenze con un master in Java presso Experis nel 2023. La mia natura auto-motivata mi ha spinto ad ampliare le mie conoscenze in modo indipendente, acquisendo competenze in Python, C# e Unity. Porto allegria al mio lavoro, emanando un atteggiamento positivo e socievole che si adatta sia a progetti individuali che all'interno di ambienti di squadra. Una curiosità insaziabile alimenta la mia continua ricerca di apprendimento e padronanza di nuove tecnologie!",
+        description: "Ciao! Sono un Full Stack Web Developer motivato e appassionato, ho completato il mio master presso Boolean nel 2022 e ho ulteriormente migliorato le mie competenze con un master in Java presso Experis a Marzo 2023. La mia natura auto-motivata mi ha spinto ad ampliare le mie conoscenze in modo indipendente, acquisendo competenze in Python, C# e Unity. Porto allegria al mio lavoro, emanando un atteggiamento positivo e socievole che si adatta sia a progetti individuali che all'interno di ambienti di squadra. Una curiosità insaziabile alimenta la mia continua ricerca di apprendimento e padronanza di nuove tecnologie!",
         readMore: "Scopri di più",
 
         // SKILLS SECTION
@@ -92,6 +92,48 @@ const translations = {
 
     },
     spanish: {
+        // NAVBAR
+        skills: "Competencias",
+        projects: "Proyectos",
+        contact: "Contactos",
+
+        // MAIN SECTION
+        hello: "¡Hola! Me llamo",
+        iam: "y soy un ",
+        intro: "apasionado de informática, ordenador y tecnología. Muy curioso, nunca dejo de estudiar y aprender cosas nuevas. ¡Pasión y dedicación son lo que más cuentan!",
+        downloadCV: "Descargar CV",
+
+        // ABOUT SECTION
+        about: "Sobre mí ",
+        description: "¡Hola! Soy un desarrollador de pila completa, motivado y apasionado. Cursé mi máster en la academia de tecnología Boolean en el 2022 y mejoré aún más mis competencias con un máster en Java, en la Experis Academy en marzo de 2023. Mi carácter emprendedor me ha inducido a ampliar mis conocimientos de manera independiente, adquiriendo competencias en Python, C# y Unity. Llevo alegría a mi trabajo, emanando una actitud positiva y sociable que se adapta tanto a los proyectos individuales como a los entornos de equipo. Una curiosidad insaciable nutre mi incesante búsqueda de aprendizaje y dominio de nuevas tecnologías.",
+        readMore: "Descubre más",
+
+        // SKILLS SECTION
+        my: "Mis ",
+
+        // PORTFOLIO SECTION
+        latest: "Últimos ",
+        booverDesc: "Boover es una página web, semejante a Fiverr, que ofrece una plataforma para encontrar profesionales autónomos. Ha sido desarrollado utilizando Laravel y Vue, así como algunas bibliotecas externas.",
+        photoGalleryDesc: "Completo portal fotográfico con Backoffice y Frontoffice. Ha sido desarrollado con Java por el Backend, mientras que por el Frontend han sido utilizados HTML, CSS y JS.",
+        neonSnakeDesc: "Versión moderna del clásico juego Snake, desarrollado utilizando HTML, CSS y JS. El diseño moderno y unas nuevas funcionalidades hacen el juego innovador y estimulante. El proyecto no está completo, pero es igualmente jugable.",
+        boolflixDesc: "Un simple clon del portal streaming Netflix, que explota l'API de theMovieDB. La página web incluye filtros de búsqueda en función y un logotipo inicial simulado, junto con una función de acceso simulada. Ha sido formado utilizando HTML, CSS, Bootstrap, JS, a través de Vue.js.",
+        boolzapDesc: "He ricreado la funcionalidad de aplicación web de WhatsApp, que incluye el envío de mensajes y respuestas casuales automatizadas para simular conversaciones con bot. Ese proyecto ha sido desarrollado utilizando HTML, CDS, Bootstrap y JS.",
+        playstationDesc: "He reproducido con meticulosidad la página de acceso de la página web de Sony PlayStation como diseño gráfico, utilizando sólo HTML y CSS, sin alguna funcionalidad Javascript.",
+        otherProjects: "Puede encontrar otros proyectos en mi perfil ",
+
+        // CONTACT SECTION
+        contactMe: "Contácte",
+        me: "me!",
+        namePH: "Tu nombre",
+        numberPH: "Número de teléfono (opcional)",
+        subjectPH: "Objeto de correo electrónico",
+        messagePH: "Tu mensaje",
+        sendMessage: "Envía",
+        otherContact: "Otros contactos:",
+        copied: "¡Copiado!",
+
+        // FOOTER SECTION
+        footerPhrase: "¡Sé siempre curioso, nunca dejes de aprender!",
 
     }
 }
