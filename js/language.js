@@ -122,8 +122,8 @@ const translations = {
         otherProjects: "Puede encontrar otros proyectos en mi perfil ",
 
         // CONTACT SECTION
-        contactMe: "Contácte",
-        me: "me!",
+        contactMe: "Contácteme",
+        me: "!",
         namePH: "Tu nombre",
         numberPH: "Número de teléfono (opcional)",
         subjectPH: "Objeto de correo electrónico",

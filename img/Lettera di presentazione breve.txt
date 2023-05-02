@@ -1,0 +1,8 @@
+Sono un full stack web developer fresco di studi, con tantissima voglia di imparare
+ed estremamente curioso! Non ho sviluppato ancora nulla in React, lo dico per onestà,
+ma l'ho guardato ed è comunque simile ad altri framework che conosco (come Vue) e posso
+dire con certezza che non avrei alcun problema ad impararlo! Amo sviluppare in front end, 
+ho creato da poco il mio sito portfolio e sto lavorando su altri siti per amici e conoscenti!
+Sono madrelingua italiano e conosco molto bene l'inglese (non ho alcuna difficoltà nel parlare/
+scrivere con qualcuno in inglese).
+Spero di poter avere almeno la chance per un colloquio conoscitivo!
