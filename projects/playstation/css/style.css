@@ -1,0 +1,170 @@
+/* generics */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* utilities */
+
+.vs-button-dark {
+    border-radius: 30px;
+    background-color: #363636;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    max-width: 85px;
+}
+
+.vs-button-orange {
+    border-radius: 30px;
+    background-color: #cd3d0f;
+    border: none;
+    font-weight: bold;
+}
+
+.vs-button-blue {
+    border-radius: 30px;
+    background-color: #2d64e6;
+    border: none;
+    font-weight: bold;
+}
+
+.vs-button-grey {
+    border-radius: 30px;
+    background-color: #d9dadc;
+    color: #2d64e6;
+    border: none;
+    font-weight: bold;
+}
+
+.vs-button-white {
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.vs-text-blue {
+    color: #0474ce;
+}
+
+.vs-text-grey {
+    color: #727272;
+}
+
+.vs-bg-darkgrey {
+    background-color: #1f1f1f;
+}
+
+.vs-bg-lightgrey {
+    background-color: #bebcbb;
+}
+
+.vs-bg-darkblue {
+    background-color: #161c3b;
+}
+
+.vs-bg-lightblue {
+    background-color: #00439c;
+}
+
+
+/* contents */
+
+.vs-bg-returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: 50% 10%;
+    margin-top: 115px;
+}
+
+.vs-bg-ittakestwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.vs-padding-top {
+    padding-top: 200px;
+}
+
+.vs-reg-trademark {
+    font-size: 15px;
+    vertical-align: super;
+}
+
+.vs-header-fix {
+    max-height: 18px;
+}
+
+.vs-media-fix {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.vs-sie-fix {
+    max-width: 150px;
+}
+
+.vs-ps-footer-fix {
+    width: 90px;
+}
+
+.vs-globe-fix {
+    width: 45px;
+}
+
+.vs-lens-fix {
+    width: 40px;
+}
+
+
+/* hover effects */
+
+a.nav-link:hover {
+    color: black !important;
+}
+
+.dropdown-menu li img:hover {
+    transform: scale(1.075);
+    cursor: pointer;
+}
+
+.vs-presentation-hover:hover {
+    cursor: pointer;
+    opacity: 100% !important;
+    box-shadow: 0 4px 2px -2px #0072ce;
+}
+
+#returnal-ratchet-section div div div img {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#returnal-ratchet-section div div div img:hover {
+    top: -10px;
+    outline: 2px solid #0072ce;
+    cursor: pointer;
+}
+
+#new-releases-section div div div img:hover,
+#ps-sale-section div div img:hover,
+#social-section div div img:hover {
+    transform: scale(1.075);
+    cursor: pointer;
+}
+
+footer div div div:nth-child(2) div .h6:hover,
+footer div div div:nth-child(3) div:nth-child(2) span:hover {
+    cursor: pointer;
+}
+
+
+/* Bootstrap CSS modifiers */
+
+#navigation .dropdown-menu.show {
+    display: flex;
+}
